@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="SF.css">
+    <title>FCC: Survey Form</title>
+</head>
+
+<body>
+    <h1 id="title"> Think And Grow Rich: Book feedback form</h1>
+    <p id="description">Thank you for reading our book. You can leave a feedback by filling the form below.</p>
+
+    <div id="FORM">
+        <form id="survey-form">
+            <div>
+                <label id="name-label"> Name </label> <br>
+                <input class="text" id="name" type="text" placeholder="Enter your name" required>
+            </div>
+            <div>
+
+                <label id="email-label">Email</label> <br>
+                <input class="text" id="email" type="email" placeholder="Enter your Email" required>
+            </div>
+            <div>
+                <label id="number-label"> Age (optional)</label>
+                <input class="text" id="number" type="number" min="10" max="99" placeholder="Age">
+            </div>
+
+            <div>
+
+                <label for="">How many books do you read in a month?</label> <br>
+
+                <select name="read" id="dropdown">Choose an option:
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">>4</option>
+                </select>
+
+                <div>
+                    <p>Would you recommend this book to a friend?</p>
+
+                    <label for="">
+                        <input class="radio" name="reccomend" type="radio" value="definitely" checked>
+                        Definitely
+
+                    </label> <br>
+
+                    <label for="">
+                        <input class="radio" type="radio" name="reccomend" value="maybe" checked>
+                        Maybe
+
+
+
+                    </label> <br>
+
+                    <label for="">
+                        <input type="radio" class="radio" name="reccomend" value="notsure" checked>
+                        Not sure
+
+
+
+                    </label>
+
+
+
+
+
+                </div>
+
+
+
+
+            </div>
+
+            <p>What book improvements would you like?</p>
+
+            <label for="">
+                <input class="cbox" value="summary" type="checkbox" name="" id="">
+                A summary of each chapter
+            </label> <br>
+
+
+
+
+
+            <label for="">
+                <input type="checkbox" class="cbox" value="bigger-text">
+                Bigger text size
+
+
+            </label> <br>
+
+
+
+
+            <label for="">
+                <input type="checkbox" class="cbox" value="page-layout">
+                Better page layout
+
+
+
+
+            </label>
+
+            <p>Further comments and suggestions:</p>
+            <textarea placeholder="Enter comments here" name="" id="" cols="30" rows="10"></textarea> <br>
+
+            <button id="submit">Submit</button>
+
+
+
+
+        </form>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    font-size: 6rem;
+    text-align: center;
+    width: 100%;
+    border: 3px solid black;
+    margin: 0 auto;
+    border-radius: 20px;
+    background: rgb(148, 238, 30);
+
+}
+
+ #description {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 3rem;
+    
+}
+
+
+
+
+
+#FORM {
+    font-size: 4rem;
+    width: 65%;
+    border: 6px solid black;
+    margin: 0 auto;
+    background-color: aqua;
+    
+}
+
+
+
+input.text {
+    font-size: 3rem;
+    width: 70%;
+    margin-left: 2em;
+    margin-right: 3em;
+    border-radius: 0.2em;
+}
+
+select {
+    font-size: 1.9vw;
+    width: 75%;
+    margin-left: 10%;
+
+}
+
+#dropdown {
+    width: 20%;
+}
+
+.radio {
+    width: 1.5vw;
+    height: 1.5vw;
+    
+}
+
+input.cbox {
+    height: 1.5vw;
+    width: 1.5vw;
+}
+
+textarea {
+    width: 80%;
+    position: relative;
+    left: 4vw;
+}
+
+button {
+    height: 4vw;
+    width: 8vw;
+    position: relative;
+    left: 40%;
+    font-size: 2vw;
+    background-color: yellow;
+    margin-bottom: 0.5em;
+}
