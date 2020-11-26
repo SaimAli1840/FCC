@@ -14,7 +14,10 @@ body {
 
 header {
     position: fixed;
-    top: 0vw;
+    top: 0;
+    right: 0;
+    left: 0;
+    
     
     margin-top: 0;
     
