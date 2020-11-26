@@ -11,7 +11,7 @@ body {
 nav {
     background-color: #023047;
     
-    padding: 1.5em;
+    padding: 1.4em;
     display: flex;
     justify-content: flex-end;
     position: fixed;
@@ -38,7 +38,7 @@ nav a {
     color: white;
     text-decoration: none;
     margin-right: 2em;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     transition: transform 0.3s ease;
 
 }
@@ -122,7 +122,7 @@ section#contact {
 
 
 #projects h2 {
-    font-size: 3.5rem;
+    font-size: 3.6rem;
     font-weight: bold;
     
 }
@@ -138,7 +138,7 @@ section#contact {
 
 
 
-@media (max-width: 700px) {
+@media (max-width: 690px) {
     .prj-container {
         flex-direction: column;
         
@@ -147,7 +147,7 @@ section#contact {
 }
 
 .project-tile {
-    width: 40%;
+    width: 42%;
     margin: 1em auto;
     background-color: #023047;
     border: 5px solid yellow;
