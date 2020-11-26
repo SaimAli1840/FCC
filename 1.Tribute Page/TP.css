@@ -6,7 +6,7 @@ html {
 
 /* LAYOUT*/
 .container {
-    width: 97%;
+    width: 96.5%;
     background-color: rgb(192, 192, 192);
     margin: 0 auto;
     border-radius: 2em;
@@ -26,7 +26,7 @@ html {
 
 }
 .img-container {
-    width: 85%;
+    width: 86%;
     background-color: white;
     margin: 1em auto;
 }
@@ -60,7 +60,7 @@ h2 {
 }
 
 #tribute-info {
-    width: 85%;
+    width: 84%;
     margin: 0 auto;
 }
 
