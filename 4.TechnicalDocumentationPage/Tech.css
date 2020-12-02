@@ -26,10 +26,10 @@ body {
 nav a {
     display: block;
     padding: 1.1em;
-    font-size: 2.5rem;
+    font-size: 2.6rem;
     text-decoration: none;
     color: black;
-    border-bottom: 1.5px solid black;
+    border-bottom: 1.4px solid black;
 }
 
 nav {
